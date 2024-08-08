@@ -1,0 +1,80 @@
+*{
+  padding:0;
+  margin:0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing:border-box;
+}
+body{
+  background-image: url('background.png');
+  background-size: cover;
+ background-position: center;
+  width:100vw;
+  height:100vh;
+}
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  width:60vw;
+  height:76vh;
+background-color: rgba(0,0,0,0.5);
+  color:#fff;
+  border-radius:0.6rem;
+  margin:5rem 5rem;
+  padding:2rem 3rem;
+}
+.option{
+ display:flex;
+ align-items: center;
+  flex-direction:start;
+  border:2px solid grey;
+  border-radius:0.7rem;
+  margin:0.6rem;
+  padding:0.6rem;
+  width:40rem;
+  height:3rem;
+}
+
+.option p{
+  background-color:transparent;
+  color:#fff;
+  font-weight:500;
+  font-size:1.1rem;
+  cursor:pointer;
+  margin:0.5rem;
+}
+.box2{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btns{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  background-color:transparent;
+  color:#fff;
+  font-weight:600;
+  font-size:1rem;
+  padding:0.4rem;
+  border:2px solid grey;
+  margin:0.5rem;
+  border-radius:0.3rem;
+  cursor:pointer;
+  width:7rem;
+  height:2.4rem;
+}
+.btn:hover{
+  color: rgb(54, 50, 50);
+  width:7.2rem;
+  height:2.6rem;
+}
+.score{
+text-align: center;
+   margin-top:6rem;
+}
+
